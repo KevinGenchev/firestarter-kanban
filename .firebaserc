@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "firestarter-kanban-demo": {
+      "hosting": {
+        "firestarter-demo": [
+          "firestarter-kanban-demo"
+        ]
+      }
+    },
+    "firestarter-angular-83934": {
+      "hosting": {
+        "firestarter-demo": [
+          "firestarter-angular-83934"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firestarter-angular-83934"
+  }
+}
