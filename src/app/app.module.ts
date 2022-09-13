@@ -26,7 +26,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     HomePageComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     BrowserAnimationsModule,
